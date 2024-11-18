@@ -1,0 +1,13 @@
+# EvaluatedPolicyTerm
+
+
+## Fields
+
+| Field                                                                          | Type                                                                           | Required                                                                       | Description                                                                    |
+| ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------ |
+| `Term`                                                                         | [components.PolicyTerm](../../models/components/policyterm.md)                 | :heavy_check_mark:                                                             | The policy term                                                                |
+| `BaseCoverages`                                                                | [][components.EvaluatedCoverage](../../models/components/evaluatedcoverage.md) | :heavy_check_mark:                                                             | N/A                                                                            |
+| `BaseSubtotal`                                                                 | *float64*                                                                      | :heavy_check_mark:                                                             | The price before taxes of the base plan and coverages                          |
+| `BaseTaxes`                                                                    | [][components.EvaluatedTax](../../models/components/evaluatedtax.md)           | :heavy_check_mark:                                                             | The taxes of the base plan and its coverages                                   |
+| `BaseTotal`                                                                    | *float64*                                                                      | :heavy_check_mark:                                                             | The price including taxes of the base plan and coverages                       |
+| `Addons`                                                                       | [][components.EvaluatedAddon](../../models/components/evaluatedaddon.md)       | :heavy_check_mark:                                                             | N/A                                                                            |

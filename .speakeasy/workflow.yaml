@@ -1,0 +1,16 @@
+workflowVersion: 1.0.0
+speakeasyVersion: latest
+sources:
+    WarrantySphere-OAS:
+        inputs:
+            - location: ../../Obligo-API-Reference.yaml
+        registry:
+            location: registry.speakeasyapi.dev/reguard/reguard/warranty-sphere-oas
+targets:
+    warranty-sphere:
+        target: go
+        source: WarrantySphere-OAS
+        codeSamples:
+            registry:
+                location: registry.speakeasyapi.dev/reguard/reguard/warranty-sphere-oas-code-samples
+            blocking: false

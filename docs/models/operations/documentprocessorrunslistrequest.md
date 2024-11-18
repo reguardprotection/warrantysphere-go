@@ -1,0 +1,12 @@
+# DocumentProcessorRunsListRequest
+
+
+## Fields
+
+| Field                                                          | Type                                                           | Required                                                       | Description                                                    | Example                                                        |
+| -------------------------------------------------------------- | -------------------------------------------------------------- | -------------------------------------------------------------- | -------------------------------------------------------------- | -------------------------------------------------------------- |
+| `Limit`                                                        | **int64*                                                       | :heavy_minus_sign:                                             | N/A                                                            |                                                                |
+| `Page`                                                         | **int64*                                                       | :heavy_minus_sign:                                             | N/A                                                            |                                                                |
+| `ProcessorID`                                                  | **string*                                                      | :heavy_minus_sign:                                             | Unique identifier of the processor to query runs of.           |                                                                |
+| `DocumentID`                                                   | **string*                                                      | :heavy_minus_sign:                                             | Unique identifier of the document to query runs of.            | sitm_db6bd84e069841e3ac22779a0135550c                          |
+| `RefreshDownloadURLs`                                          | **bool*                                                        | :heavy_minus_sign:                                             | Boolean flag indicating if `downloadURLs` should be refreshed. |                                                                |

@@ -1,0 +1,9 @@
+# ListPolicyPlansQueryControllerListPolicyPlansResponse
+
+
+## Fields
+
+| Field                                                                                               | Type                                                                                                | Required                                                                                            | Description                                                                                         |
+| --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| `HTTPMeta`                                                                                          | [components.HTTPMetadata](../../models/components/httpmetadata.md)                                  | :heavy_check_mark:                                                                                  | N/A                                                                                                 |
+| `ListPolicyPlansQueryResponse`                                                                      | [*components.ListPolicyPlansQueryResponse](../../models/components/listpolicyplansqueryresponse.md) | :heavy_minus_sign:                                                                                  | N/A                                                                                                 |

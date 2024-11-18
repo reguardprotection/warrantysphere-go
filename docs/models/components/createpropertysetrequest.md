@@ -1,0 +1,10 @@
+# CreatePropertySetRequest
+
+
+## Fields
+
+| Field                                                                                        | Type                                                                                         | Required                                                                                     | Description                                                                                  |
+| -------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| `Name`                                                                                       | *string*                                                                                     | :heavy_check_mark:                                                                           | The name of the property set                                                                 |
+| `Icon`                                                                                       | *string*                                                                                     | :heavy_check_mark:                                                                           | The icon of the property set                                                                 |
+| `Properties`                                                                                 | [][components.CreatePropertyAssignment](../../models/components/createpropertyassignment.md) | :heavy_check_mark:                                                                           | The properties and their configuration of this property set                                  |

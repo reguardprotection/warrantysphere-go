@@ -1,0 +1,9 @@
+# UpdateNoteCommandControllerUpdateRequest
+
+
+## Fields
+
+| Field                                                                                      | Type                                                                                       | Required                                                                                   | Description                                                                                | Example                                                                                    |
+| ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------ |
+| `NoteID`                                                                                   | *string*                                                                                   | :heavy_check_mark:                                                                         | The unique identifier of the note.                                                         | note_e770f0d7c2e249aeb59a2099a7a2ceaa                                                      |
+| `UpdateNoteCommandRequest`                                                                 | [components.UpdateNoteCommandRequest](../../models/components/updatenotecommandrequest.md) | :heavy_check_mark:                                                                         | N/A                                                                                        |                                                                                            |

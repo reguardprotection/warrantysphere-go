@@ -1,0 +1,9 @@
+# UpdateDistributorCommandControllerUpdateDistributorRequest
+
+
+## Fields
+
+| Field                                                                                                    | Type                                                                                                     | Required                                                                                                 | Description                                                                                              |
+| -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| `DistributorID`                                                                                          | *string*                                                                                                 | :heavy_check_mark:                                                                                       | Unique identifier of the distributor.                                                                    |
+| `UpdateDistributorCommandRequest`                                                                        | [components.UpdateDistributorCommandRequest](../../models/components/updatedistributorcommandrequest.md) | :heavy_check_mark:                                                                                       | N/A                                                                                                      |

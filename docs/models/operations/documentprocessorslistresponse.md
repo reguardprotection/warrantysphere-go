@@ -1,0 +1,9 @@
+# DocumentProcessorsListResponse
+
+
+## Fields
+
+| Field                                                                                                  | Type                                                                                                   | Required                                                                                               | Description                                                                                            |
+| ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ |
+| `HTTPMeta`                                                                                             | [components.HTTPMetadata](../../models/components/httpmetadata.md)                                     | :heavy_check_mark:                                                                                     | N/A                                                                                                    |
+| `StorageItemProcessorAggregates`                                                                       | [][components.StorageItemProcessorAggregate](../../models/components/storageitemprocessoraggregate.md) | :heavy_minus_sign:                                                                                     | N/A                                                                                                    |

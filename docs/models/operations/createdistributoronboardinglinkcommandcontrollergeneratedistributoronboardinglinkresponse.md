@@ -1,0 +1,9 @@
+# CreateDistributorOnboardingLinkCommandControllerGenerateDistributorOnboardingLinkResponse
+
+
+## Fields
+
+| Field                                                                                                           | Type                                                                                                            | Required                                                                                                        | Description                                                                                                     |
+| --------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
+| `HTTPMeta`                                                                                                      | [components.HTTPMetadata](../../models/components/httpmetadata.md)                                              | :heavy_check_mark:                                                                                              | N/A                                                                                                             |
+| `DistributorOnboardingLinkAggregate`                                                                            | [*components.DistributorOnboardingLinkAggregate](../../models/components/distributoronboardinglinkaggregate.md) | :heavy_minus_sign:                                                                                              | N/A                                                                                                             |

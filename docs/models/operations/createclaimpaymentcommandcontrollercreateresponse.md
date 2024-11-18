@@ -1,0 +1,9 @@
+# CreateClaimPaymentCommandControllerCreateResponse
+
+
+## Fields
+
+| Field                                                                                                         | Type                                                                                                          | Required                                                                                                      | Description                                                                                                   |
+| ------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| `HTTPMeta`                                                                                                    | [components.HTTPMetadata](../../models/components/httpmetadata.md)                                            | :heavy_check_mark:                                                                                            | N/A                                                                                                           |
+| `CreateClaimPaymentCommandResponse`                                                                           | [*components.CreateClaimPaymentCommandResponse](../../models/components/createclaimpaymentcommandresponse.md) | :heavy_minus_sign:                                                                                            | N/A                                                                                                           |

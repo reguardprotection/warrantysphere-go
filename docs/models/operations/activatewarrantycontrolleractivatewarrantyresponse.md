@@ -1,0 +1,9 @@
+# ActivateWarrantyControllerActivateWarrantyResponse
+
+
+## Fields
+
+| Field                                                                                                     | Type                                                                                                      | Required                                                                                                  | Description                                                                                               |
+| --------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
+| `HTTPMeta`                                                                                                | [components.HTTPMetadata](../../models/components/httpmetadata.md)                                        | :heavy_check_mark:                                                                                        | N/A                                                                                                       |
+| `ActivateWarrantyCommandResponse`                                                                         | [*components.ActivateWarrantyCommandResponse](../../models/components/activatewarrantycommandresponse.md) | :heavy_minus_sign:                                                                                        | N/A                                                                                                       |

@@ -1,0 +1,9 @@
+# CreateDistributorCommandControllerCreateDistributorResponse
+
+
+## Fields
+
+| Field                                                                                                       | Type                                                                                                        | Required                                                                                                    | Description                                                                                                 |
+| ----------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| `HTTPMeta`                                                                                                  | [components.HTTPMetadata](../../models/components/httpmetadata.md)                                          | :heavy_check_mark:                                                                                          | N/A                                                                                                         |
+| `CreateDistributorCommandResponse`                                                                          | [*components.CreateDistributorCommandResponse](../../models/components/createdistributorcommandresponse.md) | :heavy_minus_sign:                                                                                          | N/A                                                                                                         |

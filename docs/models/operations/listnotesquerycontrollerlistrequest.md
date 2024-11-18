@@ -1,0 +1,13 @@
+# ListNotesQueryControllerListRequest
+
+
+## Fields
+
+| Field                                                                    | Type                                                                     | Required                                                                 | Description                                                              |
+| ------------------------------------------------------------------------ | ------------------------------------------------------------------------ | ------------------------------------------------------------------------ | ------------------------------------------------------------------------ |
+| `Limit`                                                                  | **int64*                                                                 | :heavy_minus_sign:                                                       | N/A                                                                      |
+| `Page`                                                                   | **int64*                                                                 | :heavy_minus_sign:                                                       | N/A                                                                      |
+| `ObjectID`                                                               | **string*                                                                | :heavy_minus_sign:                                                       | The unique identifier of the object associated with the note.            |
+| `ObjectType`                                                             | **string*                                                                | :heavy_minus_sign:                                                       | The type of object associated with the note.                             |
+| `Feed`                                                                   | [][operations.QueryParamFeed](../../models/operations/queryparamfeed.md) | :heavy_minus_sign:                                                       | The feeds of users who can view the note.                                |
+| `CreatedByID`                                                            | **string*                                                                | :heavy_minus_sign:                                                       | The unique identifier of the user who created the note.                  |

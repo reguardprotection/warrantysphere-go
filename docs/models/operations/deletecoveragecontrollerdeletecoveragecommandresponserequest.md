@@ -1,0 +1,9 @@
+# DeleteCoverageControllerDeleteCoverageCommandResponseRequest
+
+
+## Fields
+
+| Field                                                                                              | Type                                                                                               | Required                                                                                           | Description                                                                                        |
+| -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| `CoverageID`                                                                                       | *string*                                                                                           | :heavy_check_mark:                                                                                 | N/A                                                                                                |
+| `DeleteCoverageCommandRequest`                                                                     | [components.DeleteCoverageCommandRequest](../../models/components/deletecoveragecommandrequest.md) | :heavy_check_mark:                                                                                 | N/A                                                                                                |

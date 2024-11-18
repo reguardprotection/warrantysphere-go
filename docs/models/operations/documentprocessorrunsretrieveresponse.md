@@ -1,0 +1,9 @@
+# DocumentProcessorRunsRetrieveResponse
+
+
+## Fields
+
+| Field                                                                                                             | Type                                                                                                              | Required                                                                                                          | Description                                                                                                       |
+| ----------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| `HTTPMeta`                                                                                                        | [components.HTTPMetadata](../../models/components/httpmetadata.md)                                                | :heavy_check_mark:                                                                                                | N/A                                                                                                               |
+| `StorageItemProcessorResultAggregate`                                                                             | [*components.StorageItemProcessorResultAggregate](../../models/components/storageitemprocessorresultaggregate.md) | :heavy_minus_sign:                                                                                                | N/A                                                                                                               |

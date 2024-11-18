@@ -1,0 +1,10 @@
+# CreatePolicyCommandResponse
+
+
+## Fields
+
+| Field                                                                        | Type                                                                         | Required                                                                     | Description                                                                  | Example                                                                      |
+| ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| `ID`                                                                         | *string*                                                                     | :heavy_check_mark:                                                           | Unique identifier of the policy.                                             | pol_55857bcac78c495386d757a42e2e18ce                                         |
+| `TermsAndConditionsUploadURL`                                                | *string*                                                                     | :heavy_check_mark:                                                           | Google cloud storage address for the policy's 'Terms & Conditions' document. |                                                                              |
+| `CoverageSummaryUploadURL`                                                   | *string*                                                                     | :heavy_check_mark:                                                           | Google cloud storage address for the policy's 'Coverage Summary' document.   |                                                                              |

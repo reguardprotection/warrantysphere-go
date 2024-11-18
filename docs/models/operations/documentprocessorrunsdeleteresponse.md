@@ -1,0 +1,9 @@
+# DocumentProcessorRunsDeleteResponse
+
+
+## Fields
+
+| Field                                                                                                           | Type                                                                                                            | Required                                                                                                        | Description                                                                                                     |
+| --------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
+| `HTTPMeta`                                                                                                      | [components.HTTPMetadata](../../models/components/httpmetadata.md)                                              | :heavy_check_mark:                                                                                              | N/A                                                                                                             |
+| `DeleteDocumentProcessorRunResponse`                                                                            | [*components.DeleteDocumentProcessorRunResponse](../../models/components/deletedocumentprocessorrunresponse.md) | :heavy_minus_sign:                                                                                              | N/A                                                                                                             |

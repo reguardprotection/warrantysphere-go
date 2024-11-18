@@ -1,0 +1,9 @@
+# CreateClaimDocumentControllerCreateRequest
+
+
+## Fields
+
+| Field                                                                                    | Type                                                                                     | Required                                                                                 | Description                                                                              | Example                                                                                  |
+| ---------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| `ClaimID`                                                                                | *string*                                                                                 | :heavy_check_mark:                                                                       | The unique identifier of the claim.                                                      | clm_9442d597203f436f96ff7f1bc05913b1                                                     |
+| `CreateClaimDocumentBody`                                                                | [components.CreateClaimDocumentBody](../../models/components/createclaimdocumentbody.md) | :heavy_check_mark:                                                                       | N/A                                                                                      |                                                                                          |

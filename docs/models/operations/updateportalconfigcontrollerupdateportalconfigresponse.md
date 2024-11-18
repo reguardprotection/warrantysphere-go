@@ -1,0 +1,9 @@
+# UpdatePortalConfigControllerUpdatePortalConfigResponse
+
+
+## Fields
+
+| Field                                                                                           | Type                                                                                            | Required                                                                                        | Description                                                                                     |
+| ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| `HTTPMeta`                                                                                      | [components.HTTPMetadata](../../models/components/httpmetadata.md)                              | :heavy_check_mark:                                                                              | N/A                                                                                             |
+| `UpdatePortalConfigResponse`                                                                    | [*components.UpdatePortalConfigResponse](../../models/components/updateportalconfigresponse.md) | :heavy_minus_sign:                                                                              | N/A                                                                                             |

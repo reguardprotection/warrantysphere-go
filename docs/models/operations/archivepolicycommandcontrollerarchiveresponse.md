@@ -1,0 +1,9 @@
+# ArchivePolicyCommandControllerArchiveResponse
+
+
+## Fields
+
+| Field                                                                                               | Type                                                                                                | Required                                                                                            | Description                                                                                         |
+| --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| `HTTPMeta`                                                                                          | [components.HTTPMetadata](../../models/components/httpmetadata.md)                                  | :heavy_check_mark:                                                                                  | N/A                                                                                                 |
+| `ArchivePolicyCommandResponse`                                                                      | [*components.ArchivePolicyCommandResponse](../../models/components/archivepolicycommandresponse.md) | :heavy_minus_sign:                                                                                  | N/A                                                                                                 |

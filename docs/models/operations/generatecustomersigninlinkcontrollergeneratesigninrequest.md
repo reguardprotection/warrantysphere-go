@@ -1,0 +1,9 @@
+# GenerateCustomerSignInLinkControllerGenerateSignInRequest
+
+
+## Fields
+
+| Field                                                                                                      | Type                                                                                                       | Required                                                                                                   | Description                                                                                                |
+| ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| `UniqueID`                                                                                                 | *string*                                                                                                   | :heavy_check_mark:                                                                                         | Unique identifier of the customer                                                                          |
+| `GenerateSignInLinkCommandRequest`                                                                         | [components.GenerateSignInLinkCommandRequest](../../models/components/generatesigninlinkcommandrequest.md) | :heavy_check_mark:                                                                                         | N/A                                                                                                        |

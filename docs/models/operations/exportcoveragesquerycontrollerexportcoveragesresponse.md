@@ -1,0 +1,9 @@
+# ExportCoveragesQueryControllerExportCoveragesResponse
+
+
+## Fields
+
+| Field                                                                                               | Type                                                                                                | Required                                                                                            | Description                                                                                         |
+| --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| `HTTPMeta`                                                                                          | [components.HTTPMetadata](../../models/components/httpmetadata.md)                                  | :heavy_check_mark:                                                                                  | N/A                                                                                                 |
+| `ExportCoveragesQueryResponse`                                                                      | [*components.ExportCoveragesQueryResponse](../../models/components/exportcoveragesqueryresponse.md) | :heavy_minus_sign:                                                                                  | N/A                                                                                                 |

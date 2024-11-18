@@ -1,0 +1,33 @@
+speakeasyVersion: 1.440.2
+sources:
+    WarrantySphere-OAS:
+        sourceNamespace: warranty-sphere-oas
+        sourceRevisionDigest: sha256:6a055cff0dd2fb50658f6e650d8d6efbbc5012b46394bbc38136f912e6d37d27
+        sourceBlobDigest: sha256:15ac583a8eea6fefc1d6a192e8ebd4f0a9ddb238e61dd7e6fa14f154db8976ed
+        tags:
+            - latest
+targets:
+    warranty-sphere:
+        source: WarrantySphere-OAS
+        sourceNamespace: warranty-sphere-oas
+        sourceRevisionDigest: sha256:6a055cff0dd2fb50658f6e650d8d6efbbc5012b46394bbc38136f912e6d37d27
+        sourceBlobDigest: sha256:15ac583a8eea6fefc1d6a192e8ebd4f0a9ddb238e61dd7e6fa14f154db8976ed
+        codeSamplesNamespace: warranty-sphere-oas-code-samples
+        codeSamplesRevisionDigest: sha256:d5045533bb3fab8c394ac95b796a4cff0f2e712152444c7f2949c51f9d2b1f52
+workflow:
+    workflowVersion: 1.0.0
+    speakeasyVersion: latest
+    sources:
+        WarrantySphere-OAS:
+            inputs:
+                - location: ../../Obligo-API-Reference.yaml
+            registry:
+                location: registry.speakeasyapi.dev/reguard/reguard/warranty-sphere-oas
+    targets:
+        warranty-sphere:
+            target: go
+            source: WarrantySphere-OAS
+            codeSamples:
+                registry:
+                    location: registry.speakeasyapi.dev/reguard/reguard/warranty-sphere-oas-code-samples
+                blocking: false

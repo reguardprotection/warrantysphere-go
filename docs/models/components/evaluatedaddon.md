@@ -1,0 +1,13 @@
+# EvaluatedAddon
+
+
+## Fields
+
+| Field                                                                          | Type                                                                           | Required                                                                       | Description                                                                    |
+| ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------ |
+| `AddonID`                                                                      | *string*                                                                       | :heavy_check_mark:                                                             | The unique identifier of the addon                                             |
+| `Addon`                                                                        | [components.AddonDto](../../models/components/addondto.md)                     | :heavy_check_mark:                                                             | The addon details                                                              |
+| `Coverages`                                                                    | [][components.EvaluatedCoverage](../../models/components/evaluatedcoverage.md) | :heavy_check_mark:                                                             | N/A                                                                            |
+| `Subtotal`                                                                     | *float64*                                                                      | :heavy_check_mark:                                                             | The price before taxes of the addon and its coverages                          |
+| `Taxes`                                                                        | [][components.EvaluatedTax](../../models/components/evaluatedtax.md)           | :heavy_check_mark:                                                             | The taxes of the addon and its coverages                                       |
+| `Total`                                                                        | *float64*                                                                      | :heavy_check_mark:                                                             | The price including taxes of the addon and its coverages                       |

@@ -1,0 +1,9 @@
+# ListWarrantiesControllerListWarrantiesResponse
+
+
+## Fields
+
+| Field                                                                                           | Type                                                                                            | Required                                                                                        | Description                                                                                     |
+| ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| `HTTPMeta`                                                                                      | [components.HTTPMetadata](../../models/components/httpmetadata.md)                              | :heavy_check_mark:                                                                              | N/A                                                                                             |
+| `ListWarrantiesResponseBody`                                                                    | [*components.ListWarrantiesResponseBody](../../models/components/listwarrantiesresponsebody.md) | :heavy_minus_sign:                                                                              | N/A                                                                                             |

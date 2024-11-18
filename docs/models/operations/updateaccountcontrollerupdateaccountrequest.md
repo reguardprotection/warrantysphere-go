@@ -1,0 +1,9 @@
+# UpdateAccountControllerUpdateAccountRequest
+
+
+## Fields
+
+| Field                                                                      | Type                                                                       | Required                                                                   | Description                                                                | Example                                                                    |
+| -------------------------------------------------------------------------- | -------------------------------------------------------------------------- | -------------------------------------------------------------------------- | -------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
+| `ID`                                                                       | *string*                                                                   | :heavy_check_mark:                                                         | Unique identifier of the account                                           | acc_9c1cae58c2b44693945ef10eb1481e9d                                       |
+| `UpdateAccountDto`                                                         | [components.UpdateAccountDto](../../models/components/updateaccountdto.md) | :heavy_check_mark:                                                         | N/A                                                                        |                                                                            |

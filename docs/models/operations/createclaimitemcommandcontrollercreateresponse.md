@@ -1,0 +1,9 @@
+# CreateClaimItemCommandControllerCreateResponse
+
+
+## Fields
+
+| Field                                                                                                   | Type                                                                                                    | Required                                                                                                | Description                                                                                             |
+| ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| `HTTPMeta`                                                                                              | [components.HTTPMetadata](../../models/components/httpmetadata.md)                                      | :heavy_check_mark:                                                                                      | N/A                                                                                                     |
+| `CreateClaimItemCommandResponse`                                                                        | [*components.CreateClaimItemCommandResponse](../../models/components/createclaimitemcommandresponse.md) | :heavy_minus_sign:                                                                                      | N/A                                                                                                     |

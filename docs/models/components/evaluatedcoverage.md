@@ -1,0 +1,13 @@
+# EvaluatedCoverage
+
+
+## Fields
+
+| Field                                                                        | Type                                                                         | Required                                                                     | Description                                                                  |
+| ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| `CoverageID`                                                                 | *string*                                                                     | :heavy_check_mark:                                                           | The unique identifier of the policy coverage                                 |
+| `Coverage`                                                                   | [components.CoverageAggregate](../../models/components/coverageaggregate.md) | :heavy_check_mark:                                                           | The coverage details                                                         |
+| `Price`                                                                      | *float64*                                                                    | :heavy_check_mark:                                                           | The price for the individual coverage without taxes                          |
+| `LiabilityLimit`                                                             | *float64*                                                                    | :heavy_check_mark:                                                           | The liability limit for the individual coverage                              |
+| `Deductible`                                                                 | *float64*                                                                    | :heavy_check_mark:                                                           | The deductible for the individual coverage                                   |
+| `LiabilityGroups`                                                            | []*string*                                                                   | :heavy_check_mark:                                                           | The liability groups this coverage belongs to                                |

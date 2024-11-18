@@ -1,0 +1,9 @@
+# RetryPaymentCommandControllerRetryPaymentRequest
+
+
+## Fields
+
+| Field                                                                                    | Type                                                                                     | Required                                                                                 | Description                                                                              | Example                                                                                  |
+| ---------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| `PaymentID`                                                                              | *string*                                                                                 | :heavy_check_mark:                                                                       | The unique identifier of the payment.                                                    | py_de5eef16ece040d7b285079ecd3de867                                                      |
+| `RetryPaymentRequestBody`                                                                | [components.RetryPaymentRequestBody](../../models/components/retrypaymentrequestbody.md) | :heavy_check_mark:                                                                       | N/A                                                                                      |                                                                                          |

@@ -1,0 +1,12 @@
+# ListClaimPaymentsQueryControllerListRequest
+
+
+## Fields
+
+| Field                                                             | Type                                                              | Required                                                          | Description                                                       | Example                                                           |
+| ----------------------------------------------------------------- | ----------------------------------------------------------------- | ----------------------------------------------------------------- | ----------------------------------------------------------------- | ----------------------------------------------------------------- |
+| `Limit`                                                           | **int64*                                                          | :heavy_minus_sign:                                                | N/A                                                               |                                                                   |
+| `Page`                                                            | **int64*                                                          | :heavy_minus_sign:                                                | N/A                                                               |                                                                   |
+| `CreatedByID`                                                     | **string*                                                         | :heavy_minus_sign:                                                | The unique identifier of the user who created the payment.        |                                                                   |
+| `Search`                                                          | **string*                                                         | :heavy_minus_sign:                                                | Search string used to filter payment by their title and content.  |                                                                   |
+| `ClaimID`                                                         | *string*                                                          | :heavy_check_mark:                                                | Unique identifier of the claim used to filter the claim payments. | clm_7cdaae0579a24740827e287f128d0095                              |

@@ -1,0 +1,9 @@
+# CreateClaimDocumentControllerCreateResponse
+
+
+## Fields
+
+| Field                                                                                             | Type                                                                                              | Required                                                                                          | Description                                                                                       |
+| ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| `HTTPMeta`                                                                                        | [components.HTTPMetadata](../../models/components/httpmetadata.md)                                | :heavy_check_mark:                                                                                | N/A                                                                                               |
+| `CreateClaimDocumentResponse`                                                                     | [*components.CreateClaimDocumentResponse](../../models/components/createclaimdocumentresponse.md) | :heavy_minus_sign:                                                                                | N/A                                                                                               |

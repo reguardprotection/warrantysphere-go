@@ -1,0 +1,9 @@
+# RemoveRoleAssignmentCommandControllerRemoveResponse
+
+
+## Fields
+
+| Field                                                                                               | Type                                                                                                | Required                                                                                            | Description                                                                                         |
+| --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| `HTTPMeta`                                                                                          | [components.HTTPMetadata](../../models/components/httpmetadata.md)                                  | :heavy_check_mark:                                                                                  | N/A                                                                                                 |
+| `RemoveRoleAssignmentResponse`                                                                      | [*components.RemoveRoleAssignmentResponse](../../models/components/removeroleassignmentresponse.md) | :heavy_minus_sign:                                                                                  | N/A                                                                                                 |

@@ -1,0 +1,9 @@
+# DeletePolicyCommandControllerDeleteResponse
+
+
+## Fields
+
+| Field                                                                                             | Type                                                                                              | Required                                                                                          | Description                                                                                       |
+| ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| `HTTPMeta`                                                                                        | [components.HTTPMetadata](../../models/components/httpmetadata.md)                                | :heavy_check_mark:                                                                                | N/A                                                                                               |
+| `DeletePolicyCommandResponse`                                                                     | [*components.DeletePolicyCommandResponse](../../models/components/deletepolicycommandresponse.md) | :heavy_minus_sign:                                                                                | N/A                                                                                               |

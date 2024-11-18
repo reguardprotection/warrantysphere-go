@@ -1,0 +1,9 @@
+# UpdateAPIKeyCommandControllerUpdateRequest
+
+
+## Fields
+
+| Field                                                                            | Type                                                                             | Required                                                                         | Description                                                                      | Example                                                                          |
+| -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
+| `ID`                                                                             | *string*                                                                         | :heavy_check_mark:                                                               | The id of the key to update                                                      | api_6b7e1e84b0204d0d80e3e72039f00eb6                                             |
+| `UpdateAPIKeyRequest`                                                            | [components.UpdateAPIKeyRequest](../../models/components/updateapikeyrequest.md) | :heavy_check_mark:                                                               | N/A                                                                              |                                                                                  |

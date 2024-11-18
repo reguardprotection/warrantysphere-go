@@ -1,0 +1,8 @@
+# UpdateClaimLifecycleStepCommandRequest
+
+
+## Fields
+
+| Field                                                                                                          | Type                                                                                                           | Required                                                                                                       | Description                                                                                                    |
+| -------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| `Steps`                                                                                                        | [][components.UpdateClaimLifecycleStepDtoPUBLIC](../../models/components/updateclaimlifecyclestepdtopublic.md) | :heavy_check_mark:                                                                                             | The claim lifecycle steps used for this policy.                                                                |

@@ -1,0 +1,10 @@
+# UpdatePolicyDocumentCommandResponse
+
+
+## Fields
+
+| Field                                                                        | Type                                                                         | Required                                                                     | Description                                                                  | Example                                                                      |
+| ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| `ID`                                                                         | *string*                                                                     | :heavy_check_mark:                                                           | Unique identifier of the document.                                           | poldoc_a924010bf9b54ed58623027f5262c744                                      |
+| `UploadURL`                                                                  | *string*                                                                     | :heavy_check_mark:                                                           | Url at which the document is stored.                                         | https://storage.googleapis.com/tenantId/policyId/documentName/documentId.pdf |
+| `PolicyID`                                                                   | *string*                                                                     | :heavy_check_mark:                                                           | Unique identifier of the policy the coverage belongs to                      | pol_ba1b070b819f4385b2a3dc4ecbf470a6                                         |

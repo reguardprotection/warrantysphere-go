@@ -1,0 +1,9 @@
+# ListDistributorsQueryControllerListDistributorsResponse
+
+
+## Fields
+
+| Field                                                                                                 | Type                                                                                                  | Required                                                                                              | Description                                                                                           |
+| ----------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| `HTTPMeta`                                                                                            | [components.HTTPMetadata](../../models/components/httpmetadata.md)                                    | :heavy_check_mark:                                                                                    | N/A                                                                                                   |
+| `ListDistributorsQueryResponse`                                                                       | [*components.ListDistributorsQueryResponse](../../models/components/listdistributorsqueryresponse.md) | :heavy_minus_sign:                                                                                    | N/A                                                                                                   |

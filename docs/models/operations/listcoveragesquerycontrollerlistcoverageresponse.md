@@ -1,0 +1,9 @@
+# ListCoveragesQueryControllerListCoverageResponse
+
+
+## Fields
+
+| Field                                                                                           | Type                                                                                            | Required                                                                                        | Description                                                                                     |
+| ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| `HTTPMeta`                                                                                      | [components.HTTPMetadata](../../models/components/httpmetadata.md)                              | :heavy_check_mark:                                                                              | N/A                                                                                             |
+| `ListCoveragesQueryResponse`                                                                    | [*components.ListCoveragesQueryResponse](../../models/components/listcoveragesqueryresponse.md) | :heavy_minus_sign:                                                                              | N/A                                                                                             |

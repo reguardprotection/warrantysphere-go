@@ -1,0 +1,9 @@
+# FinalizeWarrantyControllerUpdateWarrantyResponse
+
+
+## Fields
+
+| Field                                                                                                     | Type                                                                                                      | Required                                                                                                  | Description                                                                                               |
+| --------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
+| `HTTPMeta`                                                                                                | [components.HTTPMetadata](../../models/components/httpmetadata.md)                                        | :heavy_check_mark:                                                                                        | N/A                                                                                                       |
+| `FinalizeWarrantyCommandResponse`                                                                         | [*components.FinalizeWarrantyCommandResponse](../../models/components/finalizewarrantycommandresponse.md) | :heavy_minus_sign:                                                                                        | N/A                                                                                                       |

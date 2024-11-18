@@ -1,0 +1,9 @@
+# UpdateCustomerControllerUpdateCustomerRequest
+
+
+## Fields
+
+| Field                                                                                | Type                                                                                 | Required                                                                             | Description                                                                          | Example                                                                              |
+| ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ |
+| `CustomerID`                                                                         | *string*                                                                             | :heavy_check_mark:                                                                   | The unique identifier of the customer.                                               | cus_52328cbccf7645e99b2826eeb22d03cc                                                 |
+| `UpdateCustomerRequest`                                                              | [components.UpdateCustomerRequest](../../models/components/updatecustomerrequest.md) | :heavy_check_mark:                                                                   | N/A                                                                                  |                                                                                      |

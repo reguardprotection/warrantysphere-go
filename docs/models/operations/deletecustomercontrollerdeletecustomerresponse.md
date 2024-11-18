@@ -1,0 +1,9 @@
+# DeleteCustomerControllerDeleteCustomerResponse
+
+
+## Fields
+
+| Field                                                                                           | Type                                                                                            | Required                                                                                        | Description                                                                                     |
+| ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| `HTTPMeta`                                                                                      | [components.HTTPMetadata](../../models/components/httpmetadata.md)                              | :heavy_check_mark:                                                                              | N/A                                                                                             |
+| `DeleteCustomerResponseBody`                                                                    | [*components.DeleteCustomerResponseBody](../../models/components/deletecustomerresponsebody.md) | :heavy_minus_sign:                                                                              | N/A                                                                                             |

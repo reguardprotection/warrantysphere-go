@@ -1,0 +1,9 @@
+# DocumentsUpdateRequest
+
+
+## Fields
+
+| Field                                                                          | Type                                                                           | Required                                                                       | Description                                                                    | Example                                                                        |
+| ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------ |
+| `DocumentID`                                                                   | *string*                                                                       | :heavy_check_mark:                                                             | Unique identifier of the document.                                             | sitm_63776b30271e44d1b74b66c8db79ffcd                                          |
+| `UpdateDocumentBody`                                                           | [components.UpdateDocumentBody](../../models/components/updatedocumentbody.md) | :heavy_check_mark:                                                             | N/A                                                                            |                                                                                |

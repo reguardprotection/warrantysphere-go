@@ -1,0 +1,13 @@
+# ListClaimNotesQueryControllerListRequest
+
+
+## Fields
+
+| Field                                                          | Type                                                           | Required                                                       | Description                                                    | Example                                                        |
+| -------------------------------------------------------------- | -------------------------------------------------------------- | -------------------------------------------------------------- | -------------------------------------------------------------- | -------------------------------------------------------------- |
+| `Limit`                                                        | **int64*                                                       | :heavy_minus_sign:                                             | N/A                                                            |                                                                |
+| `Page`                                                         | **int64*                                                       | :heavy_minus_sign:                                             | N/A                                                            |                                                                |
+| `CreatedByID`                                                  | **string*                                                      | :heavy_minus_sign:                                             | The unique identifier of the user who created the note.        |                                                                |
+| `Search`                                                       | **string*                                                      | :heavy_minus_sign:                                             | Search string used to filter notes by their title and content. |                                                                |
+| `Feed`                                                         | [][operations.Feed](../../models/operations/feed.md)           | :heavy_minus_sign:                                             | The feeds of users who can view the note.                      |                                                                |
+| `ClaimID`                                                      | *string*                                                       | :heavy_check_mark:                                             | Unique identifier of the claim used to filter the claim notes. | clm_585de9387a98426484ef27910ae1f42c                           |

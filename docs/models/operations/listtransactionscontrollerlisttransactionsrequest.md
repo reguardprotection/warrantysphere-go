@@ -1,0 +1,10 @@
+# ListTransactionsControllerListTransactionsRequest
+
+
+## Fields
+
+| Field                                                                      | Type                                                                       | Required                                                                   | Description                                                                | Example                                                                    |
+| -------------------------------------------------------------------------- | -------------------------------------------------------------------------- | -------------------------------------------------------------------------- | -------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
+| `Limit`                                                                    | **int64*                                                                   | :heavy_minus_sign:                                                         | N/A                                                                        |                                                                            |
+| `Page`                                                                     | **int64*                                                                   | :heavy_minus_sign:                                                         | N/A                                                                        |                                                                            |
+| `AccountID`                                                                | *string*                                                                   | :heavy_check_mark:                                                         | Unique identifier of the source or destination account of the transactions | acc_b73b3097cbaf496b81348c501cade41a                                       |

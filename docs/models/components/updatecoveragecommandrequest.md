@@ -1,0 +1,15 @@
+# UpdateCoverageCommandRequest
+
+
+## Fields
+
+| Field                                                                    | Type                                                                     | Required                                                                 | Description                                                              |
+| ------------------------------------------------------------------------ | ------------------------------------------------------------------------ | ------------------------------------------------------------------------ | ------------------------------------------------------------------------ |
+| `CanCreateNewVersion`                                                    | *bool*                                                                   | :heavy_check_mark:                                                       | Whether or not the command should create a new draft policy if required. |
+| `Order`                                                                  | **float64*                                                               | :heavy_minus_sign:                                                       | Coverage order                                                           |
+| `Title`                                                                  | **string*                                                                | :heavy_minus_sign:                                                       | Title of the coverage                                                    |
+| `Description`                                                            | **string*                                                                | :heavy_minus_sign:                                                       | Description of the coverage                                              |
+| `ReferenceID`                                                            | **string*                                                                | :heavy_minus_sign:                                                       | N/A                                                                      |
+| `Group`                                                                  | **string*                                                                | :heavy_minus_sign:                                                       | The group the coverage is categorized in                                 |
+| `Inclusions`                                                             | **string*                                                                | :heavy_minus_sign:                                                       | Details about what is included in the coverage                           |
+| `Exclusions`                                                             | **string*                                                                | :heavy_minus_sign:                                                       | Details about what is excluded in the coverage                           |

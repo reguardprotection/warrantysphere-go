@@ -1,0 +1,9 @@
+# UpdateWebhookControllerUpdateRequest
+
+
+## Fields
+
+| Field                                                                        | Type                                                                         | Required                                                                     | Description                                                                  | Example                                                                      |
+| ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| `EndpointID`                                                                 | *string*                                                                     | :heavy_check_mark:                                                           | Id of endpoint to update                                                     | ep_1234567890                                                                |
+| `UpdateWebhookBody`                                                          | [components.UpdateWebhookBody](../../models/components/updatewebhookbody.md) | :heavy_check_mark:                                                           | N/A                                                                          |                                                                              |

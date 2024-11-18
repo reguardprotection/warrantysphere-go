@@ -1,0 +1,9 @@
+# RejectClaimItemCommandControllerRejectResponse
+
+
+## Fields
+
+| Field                                                                                                   | Type                                                                                                    | Required                                                                                                | Description                                                                                             |
+| ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| `HTTPMeta`                                                                                              | [components.HTTPMetadata](../../models/components/httpmetadata.md)                                      | :heavy_check_mark:                                                                                      | N/A                                                                                                     |
+| `RejectClaimItemCommandResponse`                                                                        | [*components.RejectClaimItemCommandResponse](../../models/components/rejectclaimitemcommandresponse.md) | :heavy_minus_sign:                                                                                      | N/A                                                                                                     |

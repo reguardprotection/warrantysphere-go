@@ -1,0 +1,9 @@
+# SetVisibilityCommandControllerCreatePlanResponse
+
+
+## Fields
+
+| Field                                                                                                       | Type                                                                                                        | Required                                                                                                    | Description                                                                                                 |
+| ----------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| `HTTPMeta`                                                                                                  | [components.HTTPMetadata](../../models/components/httpmetadata.md)                                          | :heavy_check_mark:                                                                                          | N/A                                                                                                         |
+| `SetPlanVisibilityCommandResponse`                                                                          | [*components.SetPlanVisibilityCommandResponse](../../models/components/setplanvisibilitycommandresponse.md) | :heavy_minus_sign:                                                                                          | N/A                                                                                                         |

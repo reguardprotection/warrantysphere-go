@@ -1,0 +1,9 @@
+# DocumentProcessorRunsCreateResponse
+
+
+## Fields
+
+| Field                                                                                                           | Type                                                                                                            | Required                                                                                                        | Description                                                                                                     |
+| --------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
+| `HTTPMeta`                                                                                                      | [components.HTTPMetadata](../../models/components/httpmetadata.md)                                              | :heavy_check_mark:                                                                                              | N/A                                                                                                             |
+| `CreateDocumentProcessorRunResponse`                                                                            | [*components.CreateDocumentProcessorRunResponse](../../models/components/createdocumentprocessorrunresponse.md) | :heavy_minus_sign:                                                                                              | N/A                                                                                                             |

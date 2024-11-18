@@ -1,0 +1,9 @@
+# CreateAssetCommandControllerCreateResponse
+
+
+## Fields
+
+| Field                                                                                           | Type                                                                                            | Required                                                                                        | Description                                                                                     |
+| ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| `HTTPMeta`                                                                                      | [components.HTTPMetadata](../../models/components/httpmetadata.md)                              | :heavy_check_mark:                                                                              | N/A                                                                                             |
+| `CreateAssetCommandResponse`                                                                    | [*components.CreateAssetCommandResponse](../../models/components/createassetcommandresponse.md) | :heavy_minus_sign:                                                                              | N/A                                                                                             |

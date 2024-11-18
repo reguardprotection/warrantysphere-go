@@ -1,0 +1,13 @@
+# BusinessOwnerAggregate
+
+
+## Fields
+
+| Field                                                                      | Type                                                                       | Required                                                                   | Description                                                                |
+| -------------------------------------------------------------------------- | -------------------------------------------------------------------------- | -------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
+| `Type`                                                                     | [components.OwnerType](../../models/components/ownertype.md)               | :heavy_check_mark:                                                         | N/A                                                                        |
+| `Name`                                                                     | *string*                                                                   | :heavy_check_mark:                                                         | Name of the account owner                                                  |
+| `Email`                                                                    | *string*                                                                   | :heavy_check_mark:                                                         | Email address of the account owner                                         |
+| `Phone`                                                                    | *string*                                                                   | :heavy_check_mark:                                                         | Phone number of the account owner                                          |
+| `BusinessType`                                                             | *string*                                                                   | :heavy_check_mark:                                                         | Business type of the account owner                                         |
+| `Address`                                                                  | [components.AddressAggregate](../../models/components/addressaggregate.md) | :heavy_check_mark:                                                         | Physical address of the account owner's business                           |

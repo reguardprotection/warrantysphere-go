@@ -1,0 +1,12 @@
+# ListDistributorsQueryControllerListDistributorsRequest
+
+
+## Fields
+
+| Field                                                                          | Type                                                                           | Required                                                                       | Description                                                                    |
+| ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------ |
+| `Limit`                                                                        | **int64*                                                                       | :heavy_minus_sign:                                                             | N/A                                                                            |
+| `Page`                                                                         | **int64*                                                                       | :heavy_minus_sign:                                                             | N/A                                                                            |
+| `Search`                                                                       | **string*                                                                      | :heavy_minus_sign:                                                             | Value used to search distributors.                                             |
+| `IncludeSubDistributors`                                                       | **bool*                                                                        | :heavy_minus_sign:                                                             | Condition to include sub distributors in the query.                            |
+| `DistributorIds`                                                               | **string*                                                                      | :heavy_minus_sign:                                                             | Unique identifiers of the distributors whos sub distributors are being listed. |

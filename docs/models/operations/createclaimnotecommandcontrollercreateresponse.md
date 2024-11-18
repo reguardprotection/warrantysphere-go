@@ -1,0 +1,9 @@
+# CreateClaimNoteCommandControllerCreateResponse
+
+
+## Fields
+
+| Field                                                                                                   | Type                                                                                                    | Required                                                                                                | Description                                                                                             |
+| ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| `HTTPMeta`                                                                                              | [components.HTTPMetadata](../../models/components/httpmetadata.md)                                      | :heavy_check_mark:                                                                                      | N/A                                                                                                     |
+| `CreateClaimNoteCommandResponse`                                                                        | [*components.CreateClaimNoteCommandResponse](../../models/components/createclaimnotecommandresponse.md) | :heavy_minus_sign:                                                                                      | N/A                                                                                                     |

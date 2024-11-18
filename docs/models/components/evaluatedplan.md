@@ -1,0 +1,10 @@
+# EvaluatedPlan
+
+
+## Fields
+
+| Field                                                                              | Type                                                                               | Required                                                                           | Description                                                                        | Example                                                                            |
+| ---------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| `ID`                                                                               | *string*                                                                           | :heavy_check_mark:                                                                 | The unique identifier of the plan                                                  | pln_effba69a15bc4affa1a2f4d03f4bca94                                               |
+| `Plan`                                                                             | [components.PolicyPlanAggregate](../../models/components/policyplanaggregate.md)   | :heavy_check_mark:                                                                 | N/A                                                                                |                                                                                    |
+| `ApplicableTerms`                                                                  | [][components.EvaluatedPolicyTerm](../../models/components/evaluatedpolicyterm.md) | :heavy_check_mark:                                                                 | N/A                                                                                |                                                                                    |

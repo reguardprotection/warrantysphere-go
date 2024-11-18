@@ -1,0 +1,11 @@
+# CreateNoteCommandRequest
+
+
+## Fields
+
+| Field                                                           | Type                                                            | Required                                                        | Description                                                     | Example                                                         |
+| --------------------------------------------------------------- | --------------------------------------------------------------- | --------------------------------------------------------------- | --------------------------------------------------------------- | --------------------------------------------------------------- |
+| `Title`                                                         | **string*                                                       | :heavy_minus_sign:                                              | The title of the note.                                          |                                                                 |
+| `Content`                                                       | *string*                                                        | :heavy_check_mark:                                              | The content associated with the note.                           |                                                                 |
+| `ObjectInfo`                                                    | [*components.ObjectInfo](../../models/components/objectinfo.md) | :heavy_minus_sign:                                              | The object that the note was made for.                          |                                                                 |
+| `Feed`                                                          | [][]*string*                                                    | :heavy_minus_sign:                                              | The feeds of users who can view the note.                       | [<br/>"staff",<br/>"customer"<br/>]                             |
